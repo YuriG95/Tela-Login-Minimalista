@@ -43,8 +43,8 @@ body{
     width: 65px;
     height: auto;
     animation: float 5s ease-in-out infinite;
-
 }
+
 @keyframes float{
     0%, 100%{
         transform: translateY(0);
@@ -52,7 +52,7 @@ body{
       50%{
         transform: translateY(-25px);
       }
-    }
+}
 
 
 .input::placeholder{
